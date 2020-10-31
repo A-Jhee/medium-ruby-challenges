@@ -76,8 +76,8 @@
 class Prime
   def self.nth(n)
     raise ArgumentError if n == 0
-    return 2 if n == 1
-    return 3 if n == 2
+    return 2            if n == 1
+    return 3            if n == 2
 
     primes = [2, 3]
     test_num = primes[-1]
